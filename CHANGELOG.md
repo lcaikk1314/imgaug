@@ -95,6 +95,7 @@
     * Refactored deprecation warnings to use this function.
 * Added `imgaug.imgaug.deprecated` decorator.
     * Refactored deprecation warnings to use this decorator.
+* Fixed a Permission Denied error when using `JpegCompression` on windows (possibly also affected other systems). #297
 
 
 # 0.2.8
